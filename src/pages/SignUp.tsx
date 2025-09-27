@@ -20,7 +20,7 @@ export function SignUp(){
             <Input type="name" required legend="Nome" placeholder="Seu nome" onChange={e => setName(e.target.value)}/>
             <Input type="email" required legend="E-mail" placeholder="seu@emai.com" onChange={e => setEmail(e.target.value)}/>
             <Input type="password" required legend="Senha" placeholder="123456" onChange={e => setPassword(e.target.value)}/>
-            <Input type="passwordConfirm" required legend="Confirmar senha" placeholder="123456" onChange={e => setPasswordConfirm(e.target.value)}/>
+            <Input type="password" required legend="Confirmar senha" placeholder="123456" onChange={e => setPasswordConfirm(e.target.value)}/>
 
             <Button isLoading={isLoading} type="submit">Cadastrar</Button>
 
